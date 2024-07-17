@@ -18,17 +18,17 @@
             
         </select>
         <label for="toUnit">To:</label>
-        <select for="toUnit">
+        <select id="toUnit">
             <option value="C">Celcious</option>
             <option value="F">Fahrenheit</option>
             <option value="K">Kelvin</option>
 
         </select>
-    <label for="temperature">Temperature</label> 
+    <label class="label" for="temperature">Temperature</label> 
     <input type="number" id="temperature" placeholder="Enter Temberature">
     <button onclick="convert()">convert</button>
 
-    <label for="result">Result:</label>
+    <label class="label" for="result">Result:</label>
     <input class="result" type="text" id="result" readonly>
 
     </div>
